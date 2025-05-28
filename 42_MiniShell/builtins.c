@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   builtins.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gfantech <gfantech@student.42.fr>          +#+  +:+       +#+        */
+/*   By: naal-jen <naal-jen@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 10:45:45 by gabriele          #+#    #+#             */
-/*   Updated: 2023/05/10 10:40:40 by gfantech         ###   ########.fr       */
+/*   Updated: 2025/05/28 15:15:48 by naal-jen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void	ft_exit(char **inputs, t_x **x)
 	{
 		if (ft_isalpha(inputs[1][i]))
 		{
-			write(2, "numeric argument required\n", 28);
+			write(2, "numeric argument required\n", 27);
 			exit(2);
 		}
 	}

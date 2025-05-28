@@ -1,0 +1,37 @@
+name: Build MiniShell
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential libreadline-dev
+
+    - name: Build 42_MiniShell
+      run: |
+        cd 42_MiniShell
+        make
+        make clean
+      
+    - name: Build 42_MiniShell_V2
+      run: |
+        cd 42_MiniShell_V2
+        make
+        make clean
+        
+    - name: Build 42_MiniShell_V3
+      run: |
+        cd 42_MiniShell_V3
+        make
+        make clean

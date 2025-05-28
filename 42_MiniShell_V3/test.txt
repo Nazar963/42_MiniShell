@@ -1,0 +1,14 @@
+builtins
+execve
+libft
+main.c
+Makefile
+minishell
+minishell.h
+minishell_tester
+parser
+pipes
+redirections
+signals.c
+test.txt
+utils
