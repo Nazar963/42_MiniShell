@@ -167,7 +167,7 @@ For questions or feedback, please open an issue in the repository.
 💻 **Happy Shell Scripting!**  
 [![42 School](https://img.shields.io/badge/42-profile-blue)](https://profile-v3.intra.42.fr/users/naal-jen)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Nazar963-lightgrey)](https://github.com/Nazar963)
-
+[![GitHub Follow](https://img.shields.io/github/followers/Nazar963?style=social)](https://github.com/Nazar963)
 ---
 
 Good luck with your MiniShell project at 42! 🚀
