@@ -1,3 +1,6 @@
+## Note:
+VERY IMPORTANT I didnt develop this tester this tester is from (https://github.com/LucasKuhn/minishell_tester) all i did was modify a couple of test cases and some logic. Again a big thanks to LucasKuhn for his tester.
+
 <img width="1728" alt="image" src="https://user-images.githubusercontent.com/26127185/175815870-be78bbd5-d1be-4164-954a-982768c6b147.png">
 
 # Installation 
