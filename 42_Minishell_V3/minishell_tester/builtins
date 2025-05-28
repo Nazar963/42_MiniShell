@@ -1,0 +1,755 @@
+cd echo
+cd echo echo
+cd - ananas dot jpeg
+cat ./test_files/infile_big | grep oi
+export GHOST=123 | env | grep GHOST
+/bin/echo 1 | grep 1
+/bin/echo 1 | grep 2
+ifconfig | grep ":"
+ifconfig | grep nothing
+cd .. | echo "42"
+echo 42 | cat -e
+echo 42 | echo no | echo smth | grep 42
+echo 42 | echo no | echo smth | grep no
+echo 42 | echo no | echo smth | grep smth
+echo test | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e
+/bin/echo test | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e
+ls -la ../ | grep "."
+unset TEST | cat -e
+cat tmp_lol.c | cat > tmp_lol.c
+rm -rf tmp_lol.c
+/bin/echo 1 > tmp_lol.c
+cat tmp_lol.c | cat > tmp_lol.c
+rm -rf tmp_lol.c
+/bin/rm -f out
+cat Makefile | ls > out
+cat out
+/bin/rm -f out
+/bin/rm -f out
+/bin/rm -f out0
+ls > out >> out1 >out3 | cat out1
+ls > out >> out1 >out3 | cat out1
+/bin/rm -f out
+/bin/rm -f out1
+/bin/rm -f out3
+|ls | ls
+ls -l | awk '$1 ~ /^d/ {print $9}'
+exit something somethingv2
+exit -9223372036854775805
+exit ++1
+exit ++12560
+exit -----
+exit ------
+exit --1
+exit --12560
+exit A 2 3
+exit ++++3193912939
+exit +++000
+exit ++++000
+exit ---000
+exit ----000
+exit echo
+exit cd ..
+exit exit
+echo '' -n
+echo "" "" "" -n -n -n -n
+echo '$'$'$'$'$'
+echo '$'$'$'$'$'$'$'
+echo "$"$'$'$"$"$"$"$'$'
+echo "|"  | echo maybe
+echo '|'  | echo maybe
+echo -nnnnnnnnnnnn
+'''''''''''''''' echo ok
+$T
+$T$T$T$T$T$T$T
+$Ts
+echo $"HOME"$USER
+echo $"HOM"E$USER
+echo $"HOME"
+echo $"42$"
+echo '$?'
+export --TEST=123
+export -TEST=100
+export -TEST=123
+unset -TEST
+exit ""
+/bin/echo $"HOME"$USER
+/bin/echo $"HOM"E$USER
+/bin/echo $"HOME"
+/bin/echo $"42$"
+echo $USER'$USER'text oui oui     oui  oui $USER oui      $USER    ''
+/bin/echo '' ""
+echo hi |  "|"
+>">" asd
+/bin/rm -f ">"
+echo "cd ~"
+echo ""$?""
+echo $?"42"
+echo ''$?''"42"
+echo '"$USER"'
+echo "'$USER'"
+echo ""'$USER'""
+echo '"'$USER'"'
+echo "''$USER''"
+echo "'"'$USER'"'"
+echo '"'"$USER"'"'
+echo "exit_code ->$? user ->$USER home -> $HOME"
+echo """"""""$USER""""""""
+echo "$ "
+echo hi >./outfiles/outfile01 | echo bye
+echo <123 <456 hi | echo 42
+echo '$='
+echo '$ '
+echo "$?"
+echo "'$?'"
+echo \$USER
+echo "cat lol.c | cat > lol.c"
+echo "cat lol.c '|' cat > lol.c"
+echo '$USER' "$USER" "text  ' text"
+echo $USER =intergalaktikus miaf*szomez
+echo -n"-n" bonjour
+echo "'$USER'"
+echo " '$USER' "
+echo text"$USER"
+echo text"'$USER'" ' $USER '
+echo "text"   "$USER"    "$USER"
+echo '              $USER          '
+echo ''''''''''$USER''''''''''
+echo """"""""$USER""""""""
+echo "text" "text$USER" ... "$USER"
+echo
+echo ''
+echo ""
+echo echo
+echo test1
+echo 'test1'
+echo "echo hallo"
+echo echo"1"
+echo "test1 test2"
+echo "test1  test2" test3
+echo " test1 test2 " 'test3 '
+echo $USER$TESTNOTFOUND$HOME$
+echo $USER$TESTNOTFOUND$HOME$WTF$PWD
+echo test1 -n
+echo "test1 -n"
+echo -
+echo --
+echo "  -nn "
+echo "-n test1 -n test2"
+echo "test1 -n test2"
+echo ~42
+echo "'totally logical'"
+echo 'totally logical'
+echo ''totally logical''
+echo ""'totally logical'""
+eCho
+eChO
+eCHO
+ECHO
+pwd
+cd
+pwd
+pwd
+cd ..
+pwd
+cd ..
+cd $OLDPWD
+pwd
+cd .
+pwd
+pwd
+cd "."
+pwd
+pwd
+cd /Users
+pwd
+pwd
+cd //////
+pwd
+pwd
+cd ./././
+pwd
+pwd
+cd /
+pwd
+pwd
+cd '/////'
+pwd
+pwd
+cd "$PWD/file_tests"
+pwd
+cd '/etc' 
+cd '/var' 
+cd ../../..
+cd ?
+cd +
+cd _
+cd woof
+cd bark bark
+cd '/' 
+pwd
+cd "doesntexist"
+pwd
+pwd
+cd "doesntexist"
+pwd
+pwd
+cd ../../..
+pwd
+pwd
+cd "wtf"
+pwd
+pwd
+cd ..
+cd ..
+pwd
+pwd
+cd ?
+pwd
+pwd
+cd +
+pwd
+pwd
+cd _
+pwd
+cd ../../
+pwd
+pwd
+pwd
+pwd
+pwd
+cd '/'
+pwd
+pwd
+cd $PWD/file_tests
+pwd
+pwd
+cd $OLDPWD/something
+pwd
+pwd
+cd ~
+pwd
+pwd
+cd includes/ djhwbdhwbd wgdyuhgw jdwjdh wuiydjwh 
+pwd
+pwd
+cd ~ asd w dd q asd
+pwd
+pwd
+cd ~
+pwd
+pwd
+pwd
+pwd
+cd ~
+pwd
+pwd
+cd ../libft
+pwd
+pwd
+cd ../libft ojid iowjiojwoid joijd owjoid jwojd 
+pwd
+env | grep DOESNT_EXIST
+env | grep HOME
+env | grep USER
+pwd
+"pwd"
+pwd test42
+pwd 42 42 42
+pwd pwd
+pwd pwd pwd
+/bin/echo $HALLO42
+env | grep HALLO42
+export HALLO42=42
+/bin/echo $HALLO42
+env | grep HALLO42
+/bin/echo $HOME
+env | grep HOME
+export HOME=42
+/bin/echo $HOME
+env | grep HOME
+export TEST+=100
+export =============123
+export =
+export =42
+export ''=''
+export ""=""
+export export
+export echo
+export cd
+export test
+export TEST
+export $? 
+export TEST
+export TEST=
+export TEST=123
+export ___TEST=123
+export ''=''
+export "="="="
+export '='='='
+export TE-ST=100
+export TEST-=100
+export _TEST=100
+export ==========
+export 1TEST=
+export ""=""
+export TES=T=""
+export TE+S=T=""
+export TES.T=123
+export TES.T=123
+export TES+T=123
+export TES=T=123
+export TES}T=123
+export TES{T=123
+export TES-T=123
+export _TEST=123
+export TES_T=123
+export TEST_=123
+export TE*ST=123
+export TES#T=123
+export TES@T=123
+export TES!T=123
+export TES$?T=123
+export =============123
+export +++++++=123
+export ________=123
+export TES^T=123
+export TES!T=123
+export TES\~T=123
+export TES_T=123
+/bin/echo $TES_T
+env | grep TES_T
+export HELLO42=T=""
+/bin/echo $HELLO42
+env | grep HELLO42
+env | grep HELLO42=T=
+echo $?
+export ?=hallo
+echo $?
+/bin/echo $test
+export test=42 | echo 99
+/bin/echo $test
+/bin/echo $mini_test
+env | grep mini_test
+export mini_test=
+/bin/echo $mini_test
+env | grep mini_test
+unset
+unset ""
+unset =
+unset "="
+unset ""=
+unset =""
+unset ==
+unset ?
+unset "?"
+unset $
+unset "$"
+unset $""
+export TEST=100
+unset doesntexist
+unset OLDPWD 
+unset PATH 
+unset PATH 
+unset PATH 
+unset TES.T
+unset TES+T
+unset TES=T
+unset TES}T
+unset TES{T
+unset TES-T
+unset _TEST
+unset TES_T
+unset TEST_
+unset TE*ST
+unset TES#T
+unset TES@T
+unset TES!T
+unset TES$?T
+unset ============
+unset +++++++
+unset ________
+unset export
+unset echo
+unset pwd
+unset cd
+unset unset
+unset sudo
+unset TES^T
+unset TES!T
+unset TES\~T
+/bin/echo $HOME
+unset $HOME
+/bin/echo $HOME
+/bin/echo $HOME
+unset HOME
+/bin/echo $HOME
+/bin/echo $HOME
+unset HOME
+unset HOME
+unset HOME
+/bin/echo $HOME
+/bin/echo $HOME
+unset HOME
+unset HOME
+unset HOME
+unset HOME
+/bin/echo $HOME
+exit 9223372036854775807
+exit
+exit "+100"
+exit "-100"
+exit 0
+exit 10
+exit 42
+exit 1
+exit +++++
+exit ++++++
+exit +1
+exit -1
+exit -12560
+exit 255
+exit A
+exit "A"
+exit "+++"
+exit 01
+exit 001
+exit 0001
+exit "something"
+exit x
+echo "*"
+echo $?
+export PATH=
+ls
+ls -l
+date
+whoami
+echo $PATH
+export TESTVAR=42
+echo $TESTVAR
+unset TESTVAR
+echo $TESTVAR
+cd ..
+pwd
+cd /tmp
+pwd
+cd ~
+pwd
+cd /tmp
+pwd
+cd
+pwd
+exit
+echo hello world
+echo "hello world"
+echo 'hello world'
+echo hello'world'
+echo hello""world
+echo ''
+echo "$PWD"
+echo '$PWD'
+echo "aspas ->'"
+echo "aspas -> ' "
+echo 'aspas ->"'
+echo 'aspas -> " '
+echo "> >> < * ? [ ] | ; [ ] || && ( ) & # $ \ <<"
+echo '> >> < * ? [ ] | ; [ ] || && ( ) & # $ \ <<'
+echo "exit_code ->$? user ->$USER home -> $HOME"
+echo 'exit_code ->$? user ->$USER home -> $HOME'
+echo "$"
+echo '$'
+echo $
+echo $?
+echo $?HELLO
+pwd
+pwd oi
+export hello
+export HELLO=123
+export A-
+export HELLO=123 A
+export HELLO="123 A-"
+export hello world
+export HELLO-=123
+export =
+export 123
+unset
+unset HELLO
+unset HELLO1 HELLO2
+unset HOME
+unset PATH
+unset SHELL
+cd $PWD
+cd $PWD hi 
+cd 123123
+exit 123
+exit 298
+exit +100
+exit "+100"
+exit +"100"
+exit -100
+exit "-100"
+exit -"100"
+exit hello
+/bin/echo $?
+/bin/echo $HOME
+/bin/echo $HOME$USER
+/bin/echo $HOME$NOTHING$USER$
+export a="asd"
+export a="asd" b="de" o= c="hellomi" X
+export miert ne lehetne ezt is
+export a="asd"
+unset a
+export a="asd" b="de" o= c="hellomi" X
+unset o
+export a="asd" b="de" o= c="hellomi" X
+unset X
+export a="asd" b="de" o= c="hellomi" X
+unset o a X b c
+export a="asd" b="de" o= c="hellomi" X
+unset o asd B x X wqd c
+export T=a T=b T=c
+echo $T
+export miert ne lehetne ezt is
+/bin/echo $"HOME"$USER
+/bin/echo $"HOM"E$USER
+/bin/echo $"'HOM'E"$USER
+/bin/echo $'HOM'E$USER
+/bin/echo $"HOME"
+/bin/echo $'HOME'
+/bin/echo $
+/bin/echo "$"
+/bin/echo '$='
+/bin/echo "$""$"
+/bin/echo $"$"
+/bin/echo $"42$"
+/bin/echo "$"$
+/bin/echo $'$'
+/bin/echo '$'$
+/bin/echo "$ "
+/bin/echo '$ '
+/bin/echo $TESTNOTFOUND
+/bin/echo $HOME$TESTNOTFOUND
+/bin/echo $TESTNOTFOUND$HOME
+/bin/echo $TESTNOTFOUND$HOME$
+cd ..$PWD
+mkdir test
+cd $PWD/test
+cd..
+rm -rf test
+/bin/echo $PWD/random_folder
+/bin/echo ""$?""
+/bin/echo " "$?" "
+/bin/echo $?"42"
+/bin/echo ''$?''"42"
+/bin/echo 'HELLO'$?:''"42"
+/bin/echo "$?"
+/bin/echo '$?'
+/bin/echo "'$?'"
+/bin/echo '"$?"'
+mkdir "tmp_test_folder"
+/bin/echo $PWD
+cd "tmp_test_folder"
+/bin/echo $PWD
+cd ..
+/bin/echo $PWD
+rm -rf "tmp_test_folder"
+mkdir "tmp_test folder"
+/bin/echo $PWD
+cd "tmp_test folder"
+/bin/echo $PWD
+cd ..
+/bin/echo $PWD
+rm -rf "tmp_test folder"
+export tmp_test="/bin/echo 42"
+$tmp_test
+$tmp_test 42
+export tmp_test="/bin/echo"
+$tmp_test 42 42
+export tmp_test="/bin/echo 42"
+"tmp_test"
+export X="  A  B  "
+/bin/echo "1"$X'2'
+export X=" A  B  "
+/bin/echo "1"$X'2'
+export X="A  B  "
+/bin/echo "1"$X'2'
+export X="  A  B "
+/bin/echo "1"$X'2'
+export X="  A  B"
+/bin/echo "1"$X'2'
+export X="  A B  "
+/bin/echo "1"$X'2'
+export X="  AB  "
+/bin/echo "1"$X'2'
+export X="  A  B  "
+/bin/echo $X'2'
+export X="  A  B  "
+/bin/echo $X"1"
+export X=""
+/bin/echo "1"$X'2'
+export X=" "
+/bin/echo "1"$X'2'
+export X="   "
+/bin/echo "1"$X'2'
+export X="  A  B  "
+/bin/echo ?$X'2'
+export X="  A  B  "
+/bin/echo "1"$X?
+export X="  A  B  "
+/bin/echo "1"$X2?
+/bin/echo
+/bin/echo 1
+/bin/cat 42
+""
+"   "
+"    "
+/bin/echo hello 42
+/bin/sleep 0
+exit
+exit 42
+exit ""
+exit A
+exit A 1
+/bin/echo 42
+echo $?
+/bin/cat 42
+echo $?
+/bin/exe42 42
+42 42
+/bin/echo 42
+expr $? + $?
+/bin/cat 42
+expr $? + $?
+echo "Hello World"
+echo "  ""Hello World"
+echo "  "Hello "World "
+"echo" 42
+"echo 42"
+echo " cat ' lol.c"
+/bin/echo @World"42"Hello
+echo 'Hello World'
+echo '  ' Hello World
+echo '  'Hello 'World '
+'echo' 42
+'e'cho 42
+echo 'cat lol.c << cat > lol.c'
+echo @World'42'Hello
+echo "" ''
+echo """"''""''""
+echo " "" " ' ' " " ' ' " "
+echo 1 '|' echo 2
+echo 1 '&&' echo 2
+echo 1 '||' echo 2
+echo 1 '>' echo 2
+echo 1 '>>' file 2
+'<<' lim echo 1 >>/dev/null
+echo "$USER"
+echo "   $   "
+echo '$USER'
+echo '   $   '
+echo "$HO ME"
+echo '$HO ME'
+echo $"HOME"
+echo $'HOME'
+echo ""$PWD""
+echo ''$PWD''
+echo $USE"R"$HOME
+echo $"HOME"$USER
+echo $"HOM"E$USER
+echo $"'HOM'E"$USER
+echo $'HOM'E$USER
+echo $"HOME"
+echo $'HOME'
+echo $
+echo "$"
+echo '$='
+echo "$""$"
+echo $"$"
+echo $"42$"
+echo "$"$
+echo $'$'
+echo '$'$
+env | grep HOME
+env | grep $USER
+export USER=
+env | grep USER
+export USER="@?/"
+env | grep USER
+export NEW="4 2"
+env | grep NEW
+export NEW="4=2"
+env | grep NEW
+export NEW=4=2
+env | grep 4=2
+export =
+export ''=''
+export ""=""
+export export
+export =============123
+export echo
+unset
+unset env
+unset PATH
+echo $PATH
+unset PATH
+echo $PATH
+unset HOME
+echo $HOME
+export NEW=42
+env | grep NEW
+unset NEW
+env | grep NEW
+unset NEW
+unset NEW
+unset NEW
+unset NEW
+unset NEW
+env | grep NEW
+cd .
+/bin/ls
+cd ..
+/bin/ls
+cd /notsuchdir
+/bin/ls
+cd /////
+/bin/ls
+cd "cmds/"
+/bin/ls
+cd cmds/
+/bin/ls
+cd ./cmds/
+/bin/ls
+mkdir bla_test
+chmod -wrx bla_test
+chmod +wrx bla_test
+rm -r bla_test
+pwd
+cd $HOME
+pwd
+pwd pwd
+pwd hello
+unset PATH
+pwd
+unset PATH
+cd /bin
+ls
+unset PATH
+cd /bin/../bin/
+ls
+unset PATH
+cd /bin/../bin/../bin/../bin/../bin/../bin/../bin/../bin/
+../bin/../bin/ls
+unset PATH
+cd /bin/
+exit -0000
+echo "Combining" "multiple" "arguments"
+exit 0x10
+exit 3.14
+exit --42
+< out
+echo | > la
+rm la
+echo |      < echo segf
+usnet test
+echo 1 | >tmp_out
+rm tmp_out

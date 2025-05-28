@@ -1,0 +1,56 @@
+{
+    readline
+    Memcheck:Leak
+    ...
+    ...
+    fun:readline
+    fun:main
+}
+
+{
+    readline
+    Memcheck:Leak
+    ...
+    ...
+    fun:add_history
+    fun:main
+}
+
+{
+    readline
+    Memcheck:Leak
+    ...
+    ...
+    fun:rl_initialize
+    fun:readline
+}
+
+{
+    readline
+    Memcheck:Leak
+    ...
+    ...
+    fun:readline
+    fun:ft_heredoc
+}
+
+{
+    readline
+    Memcheck:Leak
+    ...
+    ...
+    fun:readline
+    fun:ft_r
+}
+
+{
+    readline
+    Memcheck:Leak
+    ...
+    ...
+    fun:_rl_init_locale
+    fun:_rl_init_eightbit
+    fun:rl_initialize
+    fun:readline
+    fun:main
+}
