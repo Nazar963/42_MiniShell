@@ -47,7 +47,7 @@ Minishell is a 42 School project that recreates a simplified UNIX shell with:
 | Command execution   | ✅     |
 | Environment vars    | ✅     |
 | Redirections (`>`, `<`, `>>`, `<<`)| ✅ |
-| Pipes (`|`)         | ✅     |
+| Pipes (`\|`)           | ✅     |
 | Quotes handling     | ✅     |
 | Exit codes          | ✅     |
 
@@ -125,23 +125,22 @@ $ < input.txt grep "42" | wc -l >> results.txt
 - `make clean` : Remove object files
 - `make fclean`: Remove objects and executable
 - `make re`    : Rebuild project
-- `make test`  : Run test suite
 
 ## Testing
 ### Unit Tests
 ```bash
-make test
+cd 42_MiniShell_V3/minishell_tester
+./tester
 ```
 
 ### Manual Testing
 Test with:
 - [cacharle/minishell_test](https://github.com/cacharle/minishell_test)
-- [squelette-minishell](https://github.com/iciamyplant/squelette-minishell)
-- [mariedeve/minishell_tester](https://github.com/mariedeve/minishell_tester)
+- [LucasKuhn-minishell](https://github.com/LucasKuhn/minishell_tester)
 
 ### Memory Management
 ```bash
-valgrind --leak-check=full --show-leak-kinds=all ./minishell
+make && valgrind --leak-check=full --show-leak-kinds=all --suppressions=utils/readline.supp ./minishell
 ```
 
 ## Acknowledgments
