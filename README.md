@@ -10,7 +10,7 @@ A minimalist UNIX command interpreter featuring syntax parsing, environment mana
 ## Note:
  This repository contains three versions of the Minishell project that I worked on with different team members. In 42_MiniShell, I focused on the parsing aspect of the project. In 42_MiniShell_V2, I worked on the bonus features . In 42_MiniShell_V3, I was responsible for the execution part. 
 
-![Minishell Demo](https://raw.githubusercontent.com/Nazar963/minishell/master/images/demo.gif)
+![Minishell Demo](https://raw.githubusercontent.com/Nazar963/42_MiniShell/master/images/dimo.gif)
 
 ## Table of Contents 📖
 - [Description](#description)
