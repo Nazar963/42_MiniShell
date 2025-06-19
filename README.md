@@ -151,7 +151,7 @@ make && valgrind --leak-check=full --show-leak-kinds=all --suppressions=utils/re
 - StackOverflow community
 
 ## 🤝 Contributing
-Feel free to submit issues or pull requests if you have suggestions for improving the test suite or adding more test cases.
+Feel free to submit issues or pull requests if you have suggestions for improving the application or adding more features.
 
 ## License
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
@@ -164,11 +164,12 @@ For questions or feedback, please open an issue in the repository.
 
 ---
 
-💻 **Happy Shell Scripting!**  
+🗿 *"We don't just execute commands; we orchestrate symphonies of processes where pipes become conductors and redirections dance to the rhythm of `fork()` and `execve()`."*
+
 [![42 School](https://img.shields.io/badge/42-profile-blue)](https://profile-v3.intra.42.fr/users/naal-jen)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Nazar963-lightgrey)](https://github.com/Nazar963)
 [![GitHub Follow](https://img.shields.io/github/followers/Nazar963?style=social)](https://github.com/Nazar963)
 
 ---
-
+## 🍀 Goodluck:
 Good luck with your MiniShell project at 42! 🚀
